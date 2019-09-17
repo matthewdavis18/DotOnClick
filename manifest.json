@@ -1,7 +1,7 @@
 {
 
     "manifest_version": 2,
-    "name": "Borderify",
+    "name": "Dot",
     "version": "1.0",
   
     "description": "Adds a red border to all webpages matching mozilla.org.",
@@ -16,7 +16,7 @@
         "js": ["borderify.js"]
       }, {
         "matches": ["*://*.remine.com/*"],
-        "js": ["./jquery-3.4.1.min.js", "borderify.js"]
+        "js": ["./jquery-3.4.1.min.js", "dot.js"]
       }
 
     ]
